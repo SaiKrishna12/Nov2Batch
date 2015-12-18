@@ -1,0 +1,19 @@
+package day9;
+
+public class Qedge {
+	int fee;
+	String course;
+	public void courseDetails(int f,String c)
+	{
+		fee=f;
+		course=c;
+	}
+	
+	
+	public static void main(String[] args) {
+		Qedge q=new Qedge();
+		q.courseDetails(5000,"Selenium");
+		System.out.println(q.fee+"--"+q.course);
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.orangehrm.baseclass;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.orangehrm.utilty.ExcelOperations;
+
+public class Constants {
+	
+	static FirefoxDriver driver=null;
+	ExcelOperations eo=new ExcelOperations();
+	String empList="E:\\Nov2Batch\\OrangeHRM\\src\\com\\orangehrm\\excelfiles\\EmployeeList.xlsx";
+	
+
+}

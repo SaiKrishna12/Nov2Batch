@@ -1,0 +1,27 @@
+<div class="nav-search-field">
+      <input id="twotabsearchtextbox" class="nav-input" 
+	         type="text" tabindex="21" autocomplete="off" 
+			 name="field-keywords" value=""/>
+</div>
+
+CSS  based on id property
+input#twotabsearchtextbox
+
+CSS based on class property
+input.nav-input
+
+CSS based on any other property
+input[name=field-keywords]
+input[type=text]
+
+CSS based on multiple properties
+input[name=field-keywords][type=text]
+
+CSS based on parent properties
+div.nav-search-field>input#twotabsearchtextbox
+div.nav-search-field  input#twotabsearchtextbox
+
+
+
+
+

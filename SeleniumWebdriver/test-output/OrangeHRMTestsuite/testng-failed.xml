@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMTestsuite]">
+  <test name="End to end testing(failed)">
+    <classes>
+      <class name="day20.Failure">
+        <methods>
+          <include name="failureTest"/>
+        </methods>
+      </class> <!-- day20.Failure -->
+    </classes>
+  </test> <!-- End to end testing(failed) -->
+</suite> <!-- Failed suite [OrangeHRMTestsuite] -->

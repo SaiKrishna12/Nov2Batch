@@ -1,0 +1,22 @@
+<div class="nav-search-field">
+     <input id="twotabsearchtextbox" class="nav-input" 
+	        type="text" tabindex="21" autocomplete="off" 
+			name="field-keywords" value=""/>
+</div>
+
+xpath based on id property
+//input[@id='twotabsearchtextbox']
+
+xpath based on name property
+//input[@name='field-keywords']
+
+xpath based on multiple properties
+//input[@name='field-keywords' and @type='text']
+
+xpath based on parent properties
+//div[@class='nav-search-field']/input[@id='twotabsearchtextbox']
+
+
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid Demo]">
+  <parameter name="browser" value="firefox"/>
+  <test name="On Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day24.DropdownTestingOnGrid">
+        <methods>
+          <include name="dropdownTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day24.DropdownTestingOnGrid -->
+    </classes>
+  </test> <!-- On Chrome(failed) -->
+  <test name="On firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day24.DropdownTestingOnGrid">
+        <methods>
+          <include name="dropdownTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day24.DropdownTestingOnGrid -->
+    </classes>
+  </test> <!-- On firefox(failed) -->
+</suite> <!-- Failed suite [Grid Demo] -->

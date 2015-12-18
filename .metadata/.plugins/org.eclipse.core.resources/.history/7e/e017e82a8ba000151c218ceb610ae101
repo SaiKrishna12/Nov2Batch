@@ -1,0 +1,29 @@
+package day27;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import day27.pom.RegisterMercuryTours;
+import day27.pom.WelcomeMercuryTours;
+
+public class TestCase1 {
+	static FirefoxDriver driver; 
+	@Test
+	public void testCase()
+	{
+		ProfilesIni pr=new ProfilesIni();
+		FirefoxProfile fp=pr.getProfile("MyProfile");
+		driver=new FirefoxDriver(fp);
+		driver.get("http://newtours.demoaut.com");
+		WelcomeMercuryTours wm=PageFactory.initElements(driver,WelcomeMercuryTours.class);
+		RegisterMercuryTours rm=PageFactory.initElements(driver,RegisterMercuryTours.class);
+		wm.register();
+		rm.contactInformation();
+		wm.findAFlight("tutorial","tutorial");
+		
+	}
+
+}

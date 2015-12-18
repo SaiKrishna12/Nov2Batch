@@ -1,0 +1,5 @@
+2015-12-15 20:32:32,893 INFO  [LoginusingLog4j] Browser launched 
+2015-12-15 20:32:40,556 INFO  [LoginusingLog4j] Opened OrangeHRM 
+2015-12-15 20:32:40,904 INFO  [LoginusingLog4j] entered username 
+2015-12-15 20:32:41,906 INFO  [LoginusingLog4j] enterd password 
+2015-12-15 20:32:46,643 INFO  [LoginusingLog4j] clicked on login 
